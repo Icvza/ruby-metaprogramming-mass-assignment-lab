@@ -6,7 +6,6 @@ class Person
       self.class.attr_accessor(key)
       self.send(("#{key}="), value)
     end
-    binding.pry
   end
 
 end
